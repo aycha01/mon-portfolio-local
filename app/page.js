@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
 import { useState } from "react";
+import Experience from "./components/Experience";
 
 
 
@@ -44,6 +45,7 @@ export default function Home() {
   <Navbar  isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
   <Header isDarkMode={isDarkMode}  />
   <About isDarkMode={isDarkMode} />
+  <Experience    isDarkMode={isDarkMode} /> 
   <Services isDarkMode={isDarkMode} />
   <Work  isDarkMode={isDarkMode} />
   <Contact isDarkMode={isDarkMode} />

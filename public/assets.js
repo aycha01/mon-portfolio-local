@@ -43,9 +43,18 @@ import menuwhite from './menuwhite.png';
  import dbw from './dbw.png';
  import eduicondark from './eduicondark.png'; 
 import mailcondark from './mailcondark.png';
+import certification from './certification.png';
+import c1 from './c1.png';
+import c1n from './c1n.png';
+import c1b from'./c1b.png';
+import ver from './ver.png';
 export const assets = {
     figma,
     eduicondark,
+    certification,
+    c1,
+    c1b,
+    c1n,
     mailcondark,
     dbw,
     downloadwhite,
@@ -90,16 +99,18 @@ export const assets = {
     work3,
     work4,
     sendicon,
+    ver,
 };
 
 export const infoList = [
 
-{ icon: assets.codeicon, icodrak: assets.codeicondark, title:'languages', description:'HTML, CSS, JavaScript, ReactJs, Next Js'},
+{ icon: assets.codeicon, icodrak: assets.codeicondark, title:'Skills', description:'Tailwind css, HTML, CSS, JavaScript, ReactJs, Next Js, C, C++, HTML, PHP, JSON, XML, SQL '},
 
     {icon: assets.eduicon, icodrak: assets.eduicondark, title:'Education', description: 'Master professionnel Services et Sécurité des Réseaux '
  },
 
-    {icon: assets.projecticon, icodrak: assets.projecticondark, title:'Projects', description:'Built more Than 5 projects'}
+    {icon: assets.projecticon, icodrak: assets.projecticondark, title:'Projects', description:'Built more Than 5 projects'},
+    { icon: assets.c1b, icodrak: assets.c1n, title:'Certifications', description:'CCNA1 , CCNA2, CCNA3, CCNA4 '},
 
 
 
@@ -117,6 +128,21 @@ export const serviceData= [
     {icon: assets.graphicsicon, title:'Graphic design', description:'Creative design solutions to enhance visual communication...', link:''},
 
 ]
+
+export const experienceData= [
+
+    {icon:assets.ver,   
+    title:'Cybersecurity Infrastructure Engineer', description:'Jan 2023 – Oct 2024', link :' FANVOICE-France'},
+    {icon: assets.ver, title:' University Professor ', description:'Oct 2022– dec 2023 Sousse', link:'IMSET-Maghreb Institute of Economic and Technological Science '},
+    {icon: assets.ver, title:'University Professor', description:'Oct 2022 - Jan 2023 Sousse, Tunisie' , link :'ISITCOM-Institut Supérieur d`informatique et des Technologies de Communication'},
+    {icon: assets.ver, title:'Intership', description:'Feb 2022-May 2022 ', link:'EDUCANET-sousse'},
+    {icon: assets.ver, title:'Intership', description:'Feb 2020-Jun 2020 ', link:'TUNISIE TELECOM-Sousse'},
+    {icon: assets.ver, title:'Intership', description:'Jun 2019-Jul 2019', link:'LEONI-Messaadine'}
+
+]
+
+
+
 
 export const workData = [
 
@@ -141,12 +167,7 @@ export const workData = [
     bgImage : '/work3.png',
 },
 
-   {
-     title: 'Photogrpahy site',
-     description: 'Web design',
-     bgImage:'/work3.png',
 
-   },
    {
 
      title:'UI/UX designing ',

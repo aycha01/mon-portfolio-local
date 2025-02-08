@@ -72,9 +72,7 @@ const About = ({isDarkMode}) => {
      
      
      className='flex-1'>
-      <p className='mb-10 max-w-2xl font-Ovo text-justify'>Je suis une développeuse Web et titulaire d'une mastére professionnelle en services et sécurité des réseaux.
-      Avec une passion pour l'apprentissage et une compréhension approfondie des réseaux complexes, mon parcours académique m'a permis d'acquérir des connaissances approfondies dans le domaine de la cybersécurité.
-      J'aspire à améliorer encore mon expertise et à contribuer au domaine en continuant à apprendre et en obtenant un emploi épanouissant.</p>
+      <p className='mb-10 max-w-2xl font-Ovo text-justify'>Je suis une développeuse web passionnée, avec un intérêt particulier pour le développement front-end et le design UI/UX. Mon parcours m'a permis de développer une solide expertise dans la création de sites web et d'applications performants, en mettant un accent particulier sur l'expérience utilisateur.</p>
         <motion.ul 
         
         

@@ -59,6 +59,8 @@ useEffect(()=>{
        <li><a  className='font-Ovo' href="#services">Services </a></li>
        <li><a className='font-Ovo'  href="#work">My work </a></li>
        <li><a className='font-Ovo'   href="#contact">Contact me</a></li>
+       <li><a className='font-Ovo'   href="#experience">Experiences</a></li>
+
 
     </ul>
       <div className='flex items-center gap-4'>
@@ -93,6 +95,7 @@ useEffect(()=>{
         <li><a  className='font-Ovo'  onClick={closeMenu}  href="#services">Services </a></li>
         <li><a className='font-Ovo'   onClick={closeMenu}  href="#work">My work </a></li>
         <li><a className='font-Ovo'   onClick={closeMenu}  href="#contact">Contact me</a></li>
+        <li><a className='font-Ovo'   onClick={closeMenu}  href="#experience">Experiences</a></li>
 
 
 
